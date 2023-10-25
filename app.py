@@ -30,7 +30,7 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title("My English Teacher")
+st.title("My English Teacher2")
 st.write("ChatGPT APIを使った英単語学習チャットボットです。")
 
 user_input = st.text_input("メッセージを入力してください。終わる時は終了と入力してください。", key="user_input", on_change=communicate)
